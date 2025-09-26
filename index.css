@@ -14,19 +14,25 @@ ul {
 }
 
 ul li a {
+  font-weight: bold;
   display: block;
   color: rgb(26, 26, 26);
   padding: 14px 16px;
-  text-decoration: none;
+  text-decoration: solid;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+ul li a.active {
+  background-color: rgb(189, 216, 189);
 }
 
 ul li a:hover {
   background-color: rgb(189, 216, 189);
+  border-radius: 7.5px;
 }
 
 h1 {
     text-align: center;
-    background-color: darkseagreen;
 }
 
 p {
