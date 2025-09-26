@@ -1,17 +1,13 @@
 body {
-    background-color: dimgray;
+    background-color: rgb(48, 48, 48);
     font-family: 'Trebuchet MS', sans-serif;
 }
 
 h1 {
     text-align: center;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 
 p {
     text-align: center;
     color: mediumseagreen;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
 }
