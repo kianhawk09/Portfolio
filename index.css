@@ -3,13 +3,32 @@ body {
     font-family: 'Trebuchet MS', sans-serif;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: darkseagreen;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: rgb(26, 26, 26);
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: rgb(189, 216, 189);
+}
+
 h1 {
     text-align: center;
     background-color: darkseagreen;
-    border-radius: 25px;
-    align-self: center;
-    width: 200px;
-    height: 50px;
+    /*border-radius: 25px;
+    width: auto;
+    height: auto;
+    margin: auto;*/
 }
 
 p {
