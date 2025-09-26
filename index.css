@@ -5,6 +5,8 @@ body {
 
 h1 {
     text-align: center;
+    background-color: darkseagreen;
+    border-radius: 25px;
 }
 
 p {
