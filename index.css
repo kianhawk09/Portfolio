@@ -7,6 +7,9 @@ h1 {
     text-align: center;
     background-color: darkseagreen;
     border-radius: 25px;
+    padding: auto;
+    width: auto;
+    height: auto;
 }
 
 p {
