@@ -9,6 +9,7 @@ ul {
   padding: 0;
   background-color: darkseagreen;
   display: flex;
+  border-radius: 25px;
 }
 
 ul li a {
@@ -25,10 +26,6 @@ ul li a:hover {
 h1 {
     text-align: center;
     background-color: darkseagreen;
-    /*border-radius: 25px;
-    width: auto;
-    height: auto;
-    margin: auto;*/
 }
 
 p {
