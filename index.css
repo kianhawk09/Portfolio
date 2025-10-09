@@ -10,7 +10,7 @@ ul {
   background-color: #333333;
   display: flex;
   border-radius: 25px;
-  border-color: #5e5e5e;
+  border-color: #969595;
   border-width: 2.5px;
   border-style: solid;
   justify-content: center;
@@ -19,7 +19,7 @@ ul {
 ul li a {
   font-weight: bold;
   display: block;
-  color: #414141;
+  color: #ffffff;
   padding: 14px 16px;
   text-decoration: solid;
   font-family: 'Montserrat';
@@ -35,13 +35,23 @@ ul li a:hover {
   border-radius: 7.5px;
 }
 
-h1 {
+.glow {
     /*text-align: center;*/
     padding: 70px;
     padding-top: 225px;
     font-family: 'Playfair Display';
     font-size: 75px;
     color: #ffffff;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00e6e6, 0 0 40px #00e6e6, 0 0 50px #00e6e6;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #4dff4d, 0 0 40px #4dff4d, 0 0 50px #4dff4d;
+  }
 }
 
 p {
