@@ -1,6 +1,7 @@
 body {
     background-color: #222222;
     font-family: 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(to right top, #106143, #0a4130, #08251e, #0a1a15, #030706);
 }
 
 ul {
@@ -10,10 +11,18 @@ ul {
   background-color: #333333;
   display: flex;
   border-radius: 25px;
-  border-color: #969595;
-  border-width: 2.5px;
-  border-style: solid;
   justify-content: center;
+  animation: border 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes border {
+  from {
+    box-shadow: 0 0 10px #d2ffc4, 0 0 20px #a7ff8c;
+  }
+  
+  to {
+    box-shadow: 0 0 20px #81f0ff;
+  }
 }
 
 ul li a {
@@ -67,27 +76,27 @@ p {
 
 button {
   /*text-align: center;*/
-  background-color: #4e4e4e;
+  background-color: #181818;
   height: 50px;
   width: 200px;
   margin-left: 70px;
   font-size: 25px;
   border-radius: 50px;
-  border-color: #adadad;
   font-family: 'Montserrat';
   position: relative;
   top: -375px;
-  color: #363636;
+  color: #ffffff;
   transition: 0.1s;
   box-shadow: 0 9px #363636;
+  animation: border 1.5s ease-in-out infinite alternate;
 }
 
 button:hover {
-  background-color:#8b8b8b ;
+  background-color:#303030 ;
 }
 
 button:active {
-  background-color: #fffae9;
+  background-color: #353535;
   box-shadow: 0 5px #363636;
   transform: translateY(4px);
 }
