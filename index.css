@@ -1,5 +1,5 @@
 body {
-    background-color: #fff4d0;
+    background-color: #2e2e2e;
     font-family: 'Trebuchet MS', sans-serif;
 }
 
@@ -7,10 +7,10 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #fff4d0;
+  background-color: #2e2e2e;
   display: flex;
   border-radius: 25px;
-  border-color: #3b2e22;
+  border-color: #333333;
   border-width: 2.5px;
   border-style: solid;
   justify-content: center;
@@ -19,7 +19,7 @@ ul {
 ul li a {
   font-weight: bold;
   display: block;
-  color: #3b2e22;
+  color: #2c2c2c;
   padding: 14px 16px;
   text-decoration: solid;
   font-family: 'Montserrat';
@@ -27,11 +27,11 @@ ul li a {
 }
 
 ul li a.active {
-  background-color: #fff7dd;
+  background-color: #686868;
 }
 
 ul li a:hover {
-  background-color: #fff7dd;
+  background-color: #4b4b4b;
   border-radius: 7.5px;
 }
 
@@ -41,7 +41,7 @@ h1 {
     padding-top: 225px;
     font-family: 'Playfair Display';
     font-size: 75px;
-    color: #3b2e22;
+    color: #fafafa;
 }
 
 p {
@@ -52,32 +52,32 @@ p {
   position: relative;
   top: -125px;
   width: 650px;
-  color: #3b2e22;
+  color: #d6d6d6;
 }
 
 button {
   /*text-align: center;*/
-  background-color: #fff2c7;
+  background-color: #d6d6d6;
   height: 50px;
   width: 200px;
   margin-left: 70px;
   font-size: 25px;
   border-radius: 50px;
-  border-color: #3b2e22;
+  border-color: #383838;
   font-family: 'Montserrat';
   position: relative;
   top: -375px;
-  color: #3b2e22;
+  color: #202020;
   transition: 0.1s;
   box-shadow: 0 9px #3b2e22;
 }
 
 button:hover {
-  background-color:#fffae9 ;
+  background-color:#5e5e5e;
 }
 
 button:active {
-  background-color: #fffae9;
-  box-shadow: 0 5px #3b2e22;
+  background-color: #585858;
+  box-shadow: 0 5px #303030;
   transform: translateY(4px);
 }
