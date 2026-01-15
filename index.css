@@ -12,17 +12,6 @@ ul {
   display: flex;
   border-radius: 25px;
   justify-content: center;
-  animation: border 1.5s ease-in-out infinite alternate;
-}
-
-@keyframes border {
-  from {
-    box-shadow: 0 0 10px #d2ffc4, 0 0 20px #a7ff8c;
-  }
-  
-  to {
-    box-shadow: 0 0 20px #81f0ff;
-  }
 }
 
 ul li a {
@@ -42,25 +31,6 @@ ul li a.active {
 ul li a:hover {
   background-color: #464646;
   border-radius: 7.5px;
-}
-
-.glow {
-    /*text-align: center;*/
-    padding: 70px;
-    padding-top: 225px;
-    font-family: 'Playfair Display';
-    font-size: 75px;
-    color: #ffffff;
-    animation: glow 1.5s ease-in-out infinite alternate;
-}
-@keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00e6e6, 0 0 40px #00e6e6, 0 0 50px #00e6e6;
-  }
-  
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #4dff4d, 0 0 40px #4dff4d, 0 0 50px #4dff4d;
-  }
 }
 
 p {
@@ -88,7 +58,6 @@ button {
   color: #ffffff;
   transition: 0.1s;
   box-shadow: 0 9px #363636;
-  animation: border 1.5s ease-in-out infinite alternate;
 }
 
 button:hover {
