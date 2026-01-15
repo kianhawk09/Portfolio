@@ -1,23 +1,25 @@
 body {
-    background-color: #222222;
+    background-color: #fff4d0;
     font-family: 'Trebuchet MS', sans-serif;
-    background-image: linear-gradient(to right top, #106143, #0a4130, #08251e, #0a1a15, #030706);
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #333333;
+  background-color: #fff4d0;
   display: flex;
   border-radius: 25px;
+  border-color: #3b2e22;
+  border-width: 2.5px;
+  border-style: solid;
   justify-content: center;
 }
 
 ul li a {
   font-weight: bold;
   display: block;
-  color: #ffffff;
+  color: #3b2e22;
   padding: 14px 16px;
   text-decoration: solid;
   font-family: 'Montserrat';
@@ -25,12 +27,21 @@ ul li a {
 }
 
 ul li a.active {
-  background-color: #424242;
+  background-color: #fff7dd;
 }
 
 ul li a:hover {
-  background-color: #464646;
+  background-color: #fff7dd;
   border-radius: 7.5px;
+}
+
+h1 {
+    /*text-align: center;*/
+    padding: 70px;
+    padding-top: 225px;
+    font-family: 'Playfair Display';
+    font-size: 75px;
+    color: #3b2e22;
 }
 
 p {
@@ -41,31 +52,32 @@ p {
   position: relative;
   top: -125px;
   width: 650px;
-  color: #ffffff;
+  color: #3b2e22;
 }
 
 button {
   /*text-align: center;*/
-  background-color: #181818;
+  background-color: #fff2c7;
   height: 50px;
   width: 200px;
   margin-left: 70px;
   font-size: 25px;
   border-radius: 50px;
+  border-color: #3b2e22;
   font-family: 'Montserrat';
   position: relative;
   top: -375px;
-  color: #ffffff;
+  color: #3b2e22;
   transition: 0.1s;
-  box-shadow: 0 9px #363636;
+  box-shadow: 0 9px #3b2e22;
 }
 
 button:hover {
-  background-color:#303030 ;
+  background-color:#fffae9 ;
 }
 
 button:active {
-  background-color: #353535;
-  box-shadow: 0 5px #363636;
+  background-color: #fffae9;
+  box-shadow: 0 5px #3b2e22;
   transform: translateY(4px);
 }
