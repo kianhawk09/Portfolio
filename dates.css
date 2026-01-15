@@ -3,6 +3,11 @@ body {
     font-family: 'Trebuchet MS', sans-serif;
 }
 
-div {
-    background-color: aqua;
+#mainDates {
+    background-color: rgb(85, 85, 85);
+}
+
+#mainDates h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
