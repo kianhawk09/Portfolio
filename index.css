@@ -10,7 +10,7 @@ ul {
   background-color: #2e2e2e;
   display: flex;
   border-radius: 25px;
-  border-color: #333333;
+  border-color: #808080;
   border-width: 2.5px;
   border-style: solid;
   justify-content: center;
@@ -19,7 +19,7 @@ ul {
 ul li a {
   font-weight: bold;
   display: block;
-  color: #2c2c2c;
+  color: #f1f1f1;
   padding: 14px 16px;
   text-decoration: solid;
   font-family: 'Montserrat';
@@ -63,13 +63,12 @@ button {
   margin-left: 70px;
   font-size: 25px;
   border-radius: 50px;
-  border-color: #383838;
+  border-color: #7c7c7c;
   font-family: 'Montserrat';
   position: relative;
   top: -375px;
   color: #202020;
   transition: 0.1s;
-  box-shadow: 0 9px #3b2e22;
 }
 
 button:hover {
