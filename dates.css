@@ -3,24 +3,31 @@ body {
     font-family: 'Trebuchet MS', sans-serif;
 }
 
+#back {
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+a {
+    color: #FFFFFF;
+}
+
 #title {
-    background-color: rgb(85, 85, 85);
-    border-radius: 25px;
+    background-color: #2e2e2e;
+    border-radius: 75px;
+    border-color: #808080;
+    border-width: 2.5px;
+    border-style: solid;
+    margin-left: 650px;
+    margin-right: 650px;
 }
 
 #title h1 {
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 50px;
-    padding: 20px;
+    padding: 5px;
 }
-
-/*#dates {
-    background-color: rgb(85, 85, 85);
-    border-radius: 25px;
-    width: 50%;
-    margin: auto;
-}*/
 
 .date {
     color:  rgb(255, 255, 255);

@@ -69,6 +69,7 @@ button {
   top: -375px;
   color: #202020;
   transition: 0.1s;
+  box-shadow: 0 0 500px #ffffff;
 }
 
 button:hover {
@@ -79,4 +80,13 @@ button:active {
   background-color: #585858;
   box-shadow: 0 5px #303030;
   transform: translateY(4px);
+}
+
+#fish {
+  width: 30%;
+  margin: auto;
+  display: block;
+  position: relative;
+  left: 350px;
+  bottom: 825px;
 }
