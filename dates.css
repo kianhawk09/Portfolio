@@ -15,11 +15,12 @@ a {
 #title {
     background-color: #2e2e2e;
     border-radius: 75px;
-    border-color: #808080;
+    border-color: #2e2e2e;
     border-width: 2.5px;
     border-style: solid;
     margin-left: 650px;
     margin-right: 650px;
+    box-shadow: 0 0 35px 5px #b9b9b9;
 }
 
 #title h1 {
