@@ -75,6 +75,7 @@ button {
 button:hover {
   background-color:#5e5e5e;
   box-shadow: 0 0 250px 10px #ffffff;
+  width: 225px;
 }
 
 button:active {

@@ -1,0 +1,36 @@
+body {
+    background-color: #2e2e2e;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #2e2e2e;
+  display: flex;
+  border-radius: 25px;
+  border-color: #808080;
+  border-width: 2.5px;
+  border-style: solid;
+  justify-content: center;
+}
+
+ul li a {
+  font-weight: bold;
+  display: block;
+  color: #f1f1f1;
+  padding: 14px 16px;
+  text-decoration: solid;
+  font-family: 'Montserrat';
+  font-size: 20px;
+}
+
+ul li a.active {
+  background-color: #686868;
+}
+
+ul li a:hover {
+  background-color: #4b4b4b;
+  border-radius: 7.5px;
+}
