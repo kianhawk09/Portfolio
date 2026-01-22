@@ -69,11 +69,12 @@ button {
   top: -375px;
   color: #202020;
   transition: 0.1s;
-  box-shadow: 0 0 500px #ffffff;
+  box-shadow: 0 0 500px 5px #ffffff;
 }
 
 button:hover {
   background-color:#5e5e5e;
+  box-shadow: 0 0 250px 10px #ffffff;
 }
 
 button:active {
@@ -89,4 +90,5 @@ button:active {
   position: relative;
   left: 350px;
   bottom: 825px;
+  filter: drop-shadow(10px 10px 100px #868686);
 }
