@@ -34,3 +34,10 @@ ul li a:hover {
   background-color: #4b4b4b;
   border-radius: 7.5px;
 }
+
+#title {
+  text-align: center;
+  font-family: 'Playfair Display';
+  font-size: 75px;
+  color: #fafafa;
+}
