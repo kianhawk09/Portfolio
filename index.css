@@ -84,6 +84,11 @@ button:active {
   transform: translateY(4px);
 }
 
+a {
+    color: #202020;
+    text-decoration: none;
+}
+
 #fish {
   width: 30%;
   margin: auto;
