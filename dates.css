@@ -12,21 +12,11 @@ a {
     color: #FFFFFF;
 }
 
-#title {
-    background-color: #2e2e2e;
-    border-radius: 75px;
-    border-color: #2e2e2e;
-    border-width: 2.5px;
-    border-style: solid;
-    margin-left: 650px;
-    margin-right: 650px;
-    box-shadow: 0 0 35px 5px #b9b9b9;
-}
-
 #title h1 {
     color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 50px;
+    font-size: 75px;
+    font-family: 'Playfair Display';
     padding: 5px;
 }
 
@@ -41,8 +31,9 @@ a {
 
 p {
     text-align: center;
-    font-family: 'Montserrat';
+    font-family: 'Playfair Display';
     font-weight: bold;
-    font-size: 45px;
+    font-size: 65px;
+    color: #FFFFFF;
     margin: auto;
 }
